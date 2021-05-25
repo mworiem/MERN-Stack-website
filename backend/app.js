@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-// const dotenv = require("dotenv");
+const dotenv = require("dotenv");
 
 const cookieParser = require("cookie-parser");
 const bodyparser = require("body-parser");
@@ -9,14 +9,15 @@ const app = express();
 // npm i express-fileupload
 const errorMiddleware = require("./middlewares/errors");
 
-
-// Setting up config file 
-if (process.env.NODE_ENV !== 'PRODUCTION') require('dotenv').config({ path: 'backend/config/config.env' })
-// dotenv.config({ path: 'backend/config/config.env' })
+// Setting up config file
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
+
+if (process.env.NODE_ENV !== "PRODUCTION")
+  require("dotenv").config({ path: "backend/config/" });
+// dotenv.config({ path: 'backend/config/config.env' })
 
 app.use(express.json());
 app.use(bodyparser.urlencoded({ extended: true }));
