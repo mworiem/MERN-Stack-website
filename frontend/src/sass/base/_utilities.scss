@@ -1,0 +1,25 @@
+.u-center-text {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: $color-grey-light-1;
+
+}
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+  @include respond(tab-port) {
+    // padding: 10rem 10rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem important;
+  @include respond(tab-port) {
+    // padding: 10rem 10rem;
+    margin-bottom: 2rem important;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 15rem;
+  color: white;
+  padding-top: 6rem;
+  display: block;
+  text-align: center;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+    margin-top: 0rem;
+    // padding-right: 2rem;
+  }
+  &__elem {
+    border-top: 3rem;
+  }
+}
+
+h3 {
+  padding-top: 3rem;
+}

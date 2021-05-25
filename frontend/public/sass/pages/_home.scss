@@ -1,0 +1,31 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 15rem 0;
+  margin-top: -30vh;
+  margin-bottom: -30vh;
+  @include respond(tab-port) {
+    padding: 15rem 0;
+  }
+}
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.529),
+      rgba(0, 0, 0, 0.255)
+    ),
+    url(../img/mern.png);
+  background-size: cover;
+  @include respond(tab-port) {
+    // padding: 15rem 0;
+    // padding-top: 10rem;
+    // margin-top: ;
+    margin-top: 3rem;
+    padding: 10rem 0;
+  }
+}
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

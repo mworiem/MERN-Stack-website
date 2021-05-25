@@ -1,0 +1,117 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  /* display: flex; */
+  font-weight: 400;
+  font-family: sans-serif;
+  background: #12c2e9; /* fallback for old browsers */
+  background: rgb(148, 148, 148);
+  background-color: #f7f7f7;
+
+  /* background: -webkit-linear-gradient(to right, #f64f59, #) */
+}
+
+/* body, */
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+/* .App, */
+/* #root, */
+.outer {
+  width: 100%;
+  height: 100%;
+  margin-top: 9rem;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  background-color: grey;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.4);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  font-size: 2rem;
+  /* line-height: 1.7rem; */
+
+  transition: all 0.3s;
+}
+.form-control {
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.outer .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.outer h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  margin: 0;
+  line-height: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.navbar {
+  height: 5rem;
+}
+.nav-item {
+  font-size: 16px;
+  padding-right: 2rem;
+}
+
+.btn {
+  font-size: 16px;
+}

@@ -1,0 +1,71 @@
+.composition {
+  position: relative;
+  &__photo {
+    width: 60%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    transition: all 1s;
+
+    @include respond(tab-port) {
+      float: left;
+      // height: 10rem;
+      position: relative;
+      margin-bottom: 4rem;
+      width: 33.333333%;
+      // height: 37rem;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+    }
+
+    &--p1 {
+      // left: auto;
+      width: 90%;
+      top: 6rem;
+      @include respond(tab-port) {
+        // display: none;
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p2 {
+      width: 90%;
+      top: 6rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p3 {
+      width: 90%;
+      top: 6rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &--p4 {
+      width: 90%;
+      top: 6rem;
+      @include respond(tab-port) {
+        left: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        top: 0.5rem;
+      }
+    }
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    }
+  }
+}
