@@ -116,24 +116,30 @@ const Home = () => {
                       Introduction
                     </h3>
                     <p className="paragraph">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Alias eveniet aliquid maxime a maiores accusamus nemo
-                      ratione soluta laudantium, eligendi nesciunt nihil
-                      assumenda, saepe sequi labore, esse temporibus.
-                      Laboriosam, asperiores? Lorem ipsum dolor sit, amet
-                      consectetur adipisicing elit. Alias eveniet aliquid maxime
-                      a maiores accusamus nemo ratione soluta laudantium,
-                      eligendi nesciunt nihil assumenda, saepe sequi labore,
-                      esse temporibus. Laboriosam, asperiores? Lorem ipsum dolor
-                      sit, amet consectetur adipisicing elit. Alias eveniet
-                      aliquid maxime a maiores accusamus nemo ratione soluta
-                      laudantium, eligendi nesciunt nihil assumenda, saepe sequi
-                      labore, esse temporibus. Laboriosam, asperiores? Lorem
-                      ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                      eveniet aliquid maxime a maiores accusamus nemo ratione
-                      soluta laudantium, eligendi nesciunt nihil assumenda,
-                      saepe sequi labore, esse temporibus. Laboriosam,
-                      asperiores?
+                      My name is Yusufu Kibet Mworiem, a pasionate, curious and
+                      enthusiastic Software Engineer with an interest in
+                      Javascript MERN stack. After graduating with a degree in
+                      Electrical and Telecommunication Enginnering, I developed
+                      an interest in software Enginnering with the intention of
+                      becoming a fullstack Javascript developer. With this goal
+                      in mind, I set myself in the past one year on a path to
+                      Javascript due to its popularity as the go-to language of
+                      the web. The diverse fields of applications of Javascript
+                      ranging from Frontend development, server-side
+                      development, mobile and desktop application development as
+                      well as machine learning places it as the language of the
+                      future hence dedicating valuable time and resources in
+                      learning the language became my greatest investment for my
+                      future and that of the tech-world. I have developed
+                      various applications both backend and frontend and I now
+                      feel really confortable working with the many tools
+                      available in finding various soluions to clients' needs. I
+                      have listed links to my projects hosted in Github
+                      (including API) and live on Heroku I am also well versed
+                      in software engineering and lifecycles with Agile/Scrum,
+                      CI/CD and DevOps ecosystems and basic Knowledge and skills
+                      in containerisation and automation with Docker, AWS and
+                      Kubernetes
                     </p>
                   </div>
                   <div className="col-1-of-2">
@@ -150,27 +156,25 @@ const Home = () => {
                   {/* <!-- <div className="col-1-of-2"> --> */}
                   <div className="col-1-of-2">
                     <h3 className="heading-tertiary u-margin-bottom-small">
-                      Introduction
+                      Frontend
                     </h3>
                     <p className="paragraph">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Alias eveniet aliquid maxime a maiores accusamus nemo
-                      ratione soluta laudantium, eligendi nesciunt nihil
-                      assumenda, saepe sequi labore, esse temporibus.
-                      Laboriosam, asperiores? Lorem ipsum dolor sit, amet
-                      consectetur adipisicing elit. Alias eveniet aliquid maxime
-                      a maiores accusamus nemo ratione soluta laudantium,
-                      eligendi nesciunt nihil assumenda, saepe sequi labore,
-                      esse temporibus. Laboriosam, asperiores? Lorem ipsum dolor
-                      sit, amet consectetur adipisicing elit. Alias eveniet
-                      aliquid maxime a maiores accusamus nemo ratione soluta
-                      laudantium, eligendi nesciunt nihil assumenda, saepe sequi
-                      labore, esse temporibus. Laboriosam, asperiores? Lorem
-                      ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                      eveniet aliquid maxime a maiores accusamus nemo ratione
-                      soluta laudantium, eligendi nesciunt nihil assumenda,
-                      saepe sequi labore, esse temporibus. Laboriosam,
-                      asperiores?
+                      I have used React JS for the UI development where I have
+                      developed a Login, SignUp, Password forgot, password
+                      change and Logout pages for authentication and
+                      authorisation of users. I have also developed a pug
+                      template for client first time login to display a welcome
+                      message and for also displaying a token link to the client
+                      when the client hits the password forgot button. I have
+                      used Redux , context API and Hooks for global state
+                      management and to pull data from the backend to frontend
+                      with the use of UseState, Actions, Reducers and Dispatch.
+                      I have deep understanding and skills in working with the
+                      React virtual DOM and DOM manipulation as well as the
+                      overall architecture of a React application in terms of
+                      design, development and optimisation. Below are some of
+                      the technologies, techniques and tools I have learned and
+                      worked with
                     </p>
                   </div>
                   <div className="col-1-of-2">
@@ -187,27 +191,30 @@ const Home = () => {
                   {/* <!-- <div className="col-1-of-2"> --> */}
                   <div className="col-1-of-2">
                     <h3 className="heading-tertiary u-margin-bottom-small">
-                      Introduction
+                      Backend
                     </h3>
                     <p className="paragraph">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Alias eveniet aliquid maxime a maiores accusamus nemo
-                      ratione soluta laudantium, eligendi nesciunt nihil
-                      assumenda, saepe sequi labore, esse temporibus.
-                      Laboriosam, asperiores? Lorem ipsum dolor sit, amet
-                      consectetur adipisicing elit. Alias eveniet aliquid maxime
-                      a maiores accusamus nemo ratione soluta laudantium,
-                      eligendi nesciunt nihil assumenda, saepe sequi labore,
-                      esse temporibus. Laboriosam, asperiores? Lorem ipsum dolor
-                      sit, amet consectetur adipisicing elit. Alias eveniet
-                      aliquid maxime a maiores accusamus nemo ratione soluta
-                      laudantium, eligendi nesciunt nihil assumenda, saepe sequi
-                      labore, esse temporibus. Laboriosam, asperiores? Lorem
-                      ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                      eveniet aliquid maxime a maiores accusamus nemo ratione
-                      soluta laudantium, eligendi nesciunt nihil assumenda,
-                      saepe sequi labore, esse temporibus. Laboriosam,
-                      asperiores?
+                      I developed a backend API that handles authentication and
+                      Authorisation i.e Registration of new users, login,
+                      logout,password change, password Reset and email handling.
+                      In have used Node JS as a runtime environment, Express as
+                      a Node JS framework, MongoDB database and Mongoose ORM.
+                      With the idea of having the API work as an e-commerce
+                      application, I have developed routes that can handle the
+                      processing of products and client orders. This application
+                      has followed strictly the MVC architecture of separating
+                      the business logic from the application logic. I have used
+                      a MongoDB as a database to store users, products and
+                      orders. This data is then stored in the Mongo Cloud Atlas
+                      as well as local Mongo Compass. At the base of the
+                      application is the model which I have designed the DB
+                      schema using the mongoose Object relational mapper(ORM)
+                      which maps the schema to the database. The next level is
+                      the controller which handles the logic of our application.
+                      Lastly at the routes level, I handle user routes which
+                      will be connected to our frontend.Below are the
+                      tecknologies, tools, proccesses and best practices I
+                      incoperated in my API development
                     </p>
                   </div>
                   <div className="col-1-of-2">
@@ -220,47 +227,10 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row">
-                  {/* <!-- <div className="col-1-of-2"> --> */}
-                  <div className="col-1-of-2">
-                    <h3 className="heading-tertiary u-margin-bottom-small">
-                      Introduction
-                    </h3>
-                    <p className="paragraph">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Alias eveniet aliquid maxime a maiores accusamus nemo
-                      ratione soluta laudantium, eligendi nesciunt nihil
-                      assumenda, saepe sequi labore, esse temporibus.
-                      Laboriosam, asperiores? Lorem ipsum dolor sit, amet
-                      consectetur adipisicing elit. Alias eveniet aliquid maxime
-                      a maiores accusamus nemo ratione soluta laudantium,
-                      eligendi nesciunt nihil assumenda, saepe sequi labore,
-                      esse temporibus. Laboriosam, asperiores? Lorem ipsum dolor
-                      sit, amet consectetur adipisicing elit. Alias eveniet
-                      aliquid maxime a maiores accusamus nemo ratione soluta
-                      laudantium, eligendi nesciunt nihil assumenda, saepe sequi
-                      labore, esse temporibus. Laboriosam, asperiores? Lorem
-                      ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                      eveniet aliquid maxime a maiores accusamus nemo ratione
-                      soluta laudantium, eligendi nesciunt nihil assumenda,
-                      saepe sequi labore, esse temporibus. Laboriosam,
-                      asperiores?
-                    </p>
-                  </div>
-                  <div className="col-1-of-2">
-                    <div className="composition">
-                      <img
-                        src={Mongo}
-                        alt="photo 4"
-                        className="composition__photo composition__photo--p4"
-                      />
-                    </div>
-                  </div>
-                </div>
               </section>
 
               <div className="u-center-text u-margin-bottom-big">
-                <h2 className="heading-secondary">MERN STACK</h2>
+                <h2 className="heading-secondary"> FULLSTACK</h2>
               </div>
               <section className="section-features">
                 <div className="row">
@@ -271,8 +241,7 @@ const Home = () => {
                         MongoDB
                       </h3>
                       <p className="feature-box__text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Alias
+                        A noSQL database for data storage
                       </p>
                     </div>
                   </div>
@@ -283,8 +252,8 @@ const Home = () => {
                         Node js
                       </h3>
                       <p className="feature-box__text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Alias
+                        A Javascript runtime built on Google V8 Engine for
+                        building RESTful API
                       </p>
                     </div>
                   </div>
@@ -295,8 +264,7 @@ const Home = () => {
                         Express js
                       </h3>
                       <p className="feature-box__text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Alias
+                        A Node.js framework built on top of node.js
                       </p>
                     </div>
                   </div>
@@ -307,8 +275,7 @@ const Home = () => {
                         React
                       </h3>
                       <p className="feature-box__text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Alias
+                        A Javascript frontend framework for building UI faster
                       </p>
                     </div>
                   </div>
@@ -343,9 +310,12 @@ const Home = () => {
                             <p className="card__price-only">React Logo</p>
                             <p className="card__price-value">React</p>
                           </div>
-                          <Link to="#" className="btn btn--white">
-                            See project
-                          </Link>
+                          {/* <Link
+                            to="https://pello.herokuapp.com"
+                            className="btn btn--white"
+                          >
+                            View project
+                          </Link> */}
                         </div>
                       </div>
                     </div>
@@ -374,8 +344,11 @@ const Home = () => {
                             <p className="card__price-only">Node js Logo</p>
                             <p className="card__price-value">Node js</p>
                           </div>
-                          <Link to="#" className="btn btn--white">
-                            See project
+                          <Link
+                            to="https://github.com/mworiem/MERN-Stack-website"
+                            className="btn btn--white"
+                          >
+                            View project
                           </Link>
                         </div>
                       </div>
@@ -390,7 +363,7 @@ const Home = () => {
                         <h4 className="card__heading"></h4>
                         <div className="card__details">
                           <ul>
-                            <li>Mongoose ODM</li>
+                            <li>Mongoose ORM</li>
                             <li>MongoDB Atlas cluster</li>
                             <li>Analytics</li>
                             <li>Recat-Router</li>
@@ -405,9 +378,9 @@ const Home = () => {
                             <p className="card__price-only">MongoDB Logo</p>
                             <p className="card__price-value">MongoDB</p>
                           </div>
-                          <Link to="#" className="btn btn--white">
+                          {/* <Link to="#" className="btn btn--white">
                             See project
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
