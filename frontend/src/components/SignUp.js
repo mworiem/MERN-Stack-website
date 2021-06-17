@@ -77,9 +77,8 @@ const SignUp = ({ history }) => {
         <Fragment> */}
       <MetaData title={"Register User"} />
 
-      <Navbar />
-
       <div className="outer">
+        {/* <Navbar /> */}
         <div className="inner">
           <form onSubmit={submitHandler} encType="multipart/form-data">
             <h3>Register</h3>

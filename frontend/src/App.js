@@ -21,7 +21,7 @@ import NewPassword from "./components/NewPassword";
 import Home from "./components/Home";
 // import ProtectedRoute from "./components/ProtectedRoute";
 
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   useEffect(() => {
@@ -32,9 +32,9 @@ function App() {
       <div className="">
         {/* <Navbar /> */}
         <Switch>
-          <Route  path="/" component={Home} exact />
-          <Route path="/sign-in" component={Login}  />
-          <Route path="/sign-up" component={SignUp}  />
+          <Route path="/" component={Home} exact />
+          <Route path="/sign-in" component={Login} />
+          <Route path="/sign-up" component={SignUp} />
           <Route path="/password/forgot" component={ForgotPassword} exact />
           <Route path="/password/update" component={UpdatePassword} exact />
           <Route path="/password/reset/:token" component={NewPassword} exact />
