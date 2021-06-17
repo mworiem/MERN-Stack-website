@@ -46,7 +46,7 @@ const NewPassword = ({ history, match }) => {
         ) : ( */}
         <Fragment>
           <MetaData title={"Login"} />
-          <Navbar />
+          {/* <Navbar /> */}
 
           <div className="outer">
             <div className="inner">
